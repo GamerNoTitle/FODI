@@ -47,7 +47,7 @@ OAUTH = {
     'apiUrl': apiHost[IS_CN] + '/v1.0/me/drive/root',
     'scope': apiHost[IS_CN] + '/Files.ReadWrite.All offline_access'
 }
-GATE_WAY = 'https://fodi.bili33.workers.dev/'
+GATE_WAY = ''
 
 
 def gen_error(key, url=None, content={}):
